@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <title>Política de Privacidad – Kids Research Search</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <style>body{max-width:860px;margin:2rem auto;padding:0 1rem;font:16px/1.6 system-ui}</style>
+</head>
+<body>
+<h1>Política de Privacidad – Kids Research Search</h1>
+<p><strong>Fecha de entrada en vigor:</strong> 01-Nov-2025</p>
+
+<p>Esta política describe cómo se maneja la información cuando usas el asistente “Kids Research Search” 
+y su Action de búsqueda (endpoint de Google Apps Script que consulta Google Programmable Search Engine).</p>
+
+<h2>Qué datos procesa el servicio</h2>
+<ul>
+  <li><strong>Consulta de búsqueda</strong> (texto que escribes) y parámetros (<code>preferred_language</code>, <code>locale</code>, <code>subject</code>, <code>num</code>).</li>
+  <li>No solicitamos ni recopilamos datos personales identificables (PII) de menores ni adultos.</li>
+</ul>
+
+<h2>Cómo se usan los datos</h2>
+<ul>
+  <li>Exclusivamente para devolver <strong>enlaces</strong> a recursos educativos de una <strong>lista blanca</strong> (whitelist).</li>
+  <li>La Action no genera respuestas de contenido; solo retorna resultados (títulos, URLs y resúmenes breves) provenientes de
+      Google Programmable Search Engine.</li>
+</ul>
+
+<h2>Retención y almacenamiento</h2>
+<ul>
+  <li>El endpoint no guarda las consultas de forma permanente ni crea perfiles. 
+      Se pueden registrar <em>logs técnicos efímeros</em> a nivel de Google Apps Script con fines de depuración y seguridad.</li>
+  <li>Las claves (API key y IDs de buscador) se almacenan en <strong>Script Properties</strong> de Apps Script, no en el código fuente.</li>
+</ul>
+
+<h2>Compartición con terceros</h2>
+<ul>
+  <li>Se llama a la API de <strong>Google Programmable Search Engine</strong> para obtener resultados. 
+      Consulta también la política de Google.</li>
+  <li>No se venden ni comparten datos con terceros para fines de marketing.</li>
+</ul>
+
+<h2>Seguridad</h2>
+<ul>
+  <li>Acceso al endpoint limitado mediante URL pública; no se expone ninguna credencial sensible en el cliente.</li>
+  <li>La lista blanca reduce el riesgo de exposición a contenido no apto.</li>
+</ul>
+
+<h2>Privacidad infantil</h2>
+<ul>
+  <li>El asistente está diseñado para <strong>no recopilar PII de menores</strong>. 
+      Los adultos responsables deben supervisar su uso y configurar controles parentales del dispositivo.</li>
+</ul>
+
+<h2>Contacto</h2>
+<p>Para preguntas o solicitudes relacionadas con privacidad, contáctanos en: 
+   <a href="mailto:tucorreo@ejemplo.com">tucorreo@ejemplo.com</a>.</p>
+
+</body>
+</html>
